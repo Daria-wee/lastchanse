@@ -322,3 +322,102 @@ align-items: center;
   font-family: "Lato", sans-serif;
   padding-top: 34px;
 }
+.about-me-title {
+    font-weight: 500;
+      font-size: 20px;
+      line-height: 160%;
+      letter-spacing: 0.03em;
+      text-align: justify;
+      color: #707070;
+      font-family: "Lato", sans-serif;
+      margin-bottom: 40px;
+}
+.about-container {
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 110px;
+}
+.about-me-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.content-about {
+  display: flex;
+  /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 101px;
+}
+
+.about-me-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 190%;
+  text-align: justify;
+  color: #959595;
+  font-family: "Lato", sans-serif;
+}
+
+.about-btn {
+  border-radius: 8px;
+  padding: 12px 30px;
+  width: 224px;
+  height: 48px;
+  background: linear-gradient(129deg, #fd6f00 0%, #e46400 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.about-me-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 91px;
+  width: 566px;
+    height: 808px;
+}
+
+.about-me-item {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.benefits-icon {
+  font-weight: 700;
+  font-size: 30px;
+  background: linear-gradient(129deg, #fd6f00 0%, #e46400 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 30px;
+  background: linear-gradient(129deg, #fd6f00 0%, #e46400 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lato", sans-serif;
+}
+
+.benefits-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #959595;
+  font-family: "Lato", sans-serif;
+}
+
+/* ---------- */
