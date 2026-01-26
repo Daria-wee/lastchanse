@@ -295,9 +295,6 @@ align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
-  margin: 0 auto 20px;
   border-radius: 12px;
   color: #ff8a00;
 }
