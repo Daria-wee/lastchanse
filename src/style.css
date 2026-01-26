@@ -31,8 +31,8 @@ button {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
 }
 
 .container {
@@ -335,19 +335,21 @@ align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 110px;
+    /* margin-bottom: 150px; */
+  padding-bottom: 150px;
 }
 .about-me-content {
   display: flex;
   align-items: center;
   margin-bottom: 100px;
+    gap: 101px;
 }
 .content-about {
   display: flex;
-  /* display: flex; */
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 101px;
+  
 }
 
 .about-me-text {
@@ -357,6 +359,7 @@ align-items: center;
   text-align: justify;
   color: #959595;
   font-family: "Lato", sans-serif;
+  margin-bottom: 40px;
 }
 
 .about-btn {
@@ -378,8 +381,6 @@ align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 91px;
-  width: 566px;
-    height: 808px;
 }
 
 .about-me-item {
@@ -388,7 +389,7 @@ align-items: center;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 24px;
+  padding: 35px;
 }
 
 .benefits-icon {
@@ -398,6 +399,9 @@ align-items: center;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  width: 100%;
+  height: 100%;
+
 }
 
 .benefits-title {
@@ -408,6 +412,7 @@ align-items: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Lato", sans-serif;
+  margin-bottom: 8px;
 }
 
 .benefits-text {
@@ -418,3 +423,73 @@ align-items: center;
 }
 
 /* ---------- */
+
+/* -----PORTFOLIO--------- */
+.swiper-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* gap: 70px; */
+  margin-bottom: 150px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+  text-align: justify;
+  color: #fefefe;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 40px;
+}
+
+.portfolio-filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 70px;}
+
+.filter-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 14px 40px;
+  color: #c6c6c6;
+}
+
+.active {
+  background: linear-gradient(129deg, #fd6f00 0%, #e46400 100%);
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 17px;
+}
+
+.card-info {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 0 0 16px 16px;
+  padding: 16px;
+  /* width: 415px;
+  height: 58px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+}
+
+span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  text-align: justify;
+  color: #c6c6c6;
+  font-family: "Lato", sans-serif;
+}
